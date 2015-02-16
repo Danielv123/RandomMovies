@@ -22,10 +22,6 @@ footer {
 	background-color:black;
 }
 
-#background-image {
-	z-index: -2;
-}
-
 #shadow {
 	z-index: -1;
 	width: 100%;
