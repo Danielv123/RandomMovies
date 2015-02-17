@@ -31,7 +31,14 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
-	margin-top: 25px;
+	margin-top: 0px;
+}
+
+.smallBox h1 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
 }
 
 .largeBox {
