@@ -16,6 +16,8 @@ h1 {
 	height:310px;
 	display: block;
 	z-index:-1;
+	background-color: #202020;
+	color: #E6E6E6;
 }
 
 .importantImage {
@@ -136,9 +138,9 @@ footer {
 	height:0px;
 	position: fixed;
 	bottom:0px;
-	-webkit-box-shadow: 0px 0px 200px 50px rgba(0,0,0,1);
-	-moz-box-shadow: 0px 0px 200px 50px rgba(0,0,0,1);
-	box-shadow: 0px 0px 200px 50px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 400px 200px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 400px 200px rgba(0,0,0,1);
+	box-shadow: 0px 0px 400px 200px rgba(0,0,0,1);
 }
 /* Animations from here on and down */
 /* Body fade animation */
