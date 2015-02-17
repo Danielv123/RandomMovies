@@ -65,6 +65,16 @@ h1 {
 	z-index: 100;
 }
 
+.largeBox a {
+	display: block;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	margin-top: 0px;
+}
+
 #movies {
 }
 
