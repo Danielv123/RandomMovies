@@ -21,6 +21,12 @@
 	background-color: purple;
 }
 
+.movie {
+	width: 100px;
+	height: 160px;
+	float: left;
+}
+
 body {
 	margin: 0px;
     -webkit-animation: bodyFade 5s; /* Chrome, Safari, Opera */
