@@ -1,16 +1,32 @@
 #page {
-	width: 800px;
+	width: 840px;
 	min-height: 1000px;
 	margin: 0px auto;
 	background-color: #606060;
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(105,105,105,1);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(105,105,105,1);
-	box-shadow: 0px 0px 14px 0px rgba(105,105,105,1);
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(105,105,105,1);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(105,105,105,1);
+	box-shadow: 0px 0px 20px 0px rgba(105,105,105,1);
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+#previewBox {
+	height:310px;
+	display: block;
+	z-index:-1;
+}
+
+.importantImage {
+	float: left;
+	height: 300px;
+	width: 200px;
 }
 
 #header {
-	height: 200px;
-	width: 800px;
+	height: 100px;
+	width: 100%;
 }
 
 .smallBox {
@@ -42,27 +58,45 @@
 }
 
 .largeBox {
-	width: 200px;
+	width: 240px;
 	height: 100px;
 	float: left;
 	background-color: purple;
+	z-index: 100;
 }
 
 #movies {
 }
 
 .movie {
-	width: 100px;
-	height: 160px;
+	width: 120px;
+	height: 180px;
 	float: left;
-	background-color: black;'
 	
-	
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 2s; /* Firefox < 16 */
-	-ms-animation: fadein 2s; /* Internet Explorer */
-	-o-animation: fadein 2s; /* Opera < 12.1 */
-	animation: fadein 2s;
+	transition: width 0s;
+	-moz-transition: width 0s; /* Firefox 4 */
+	-webkit-transition: width 0s; /* Safari and Chrome */
+	-o-transition: width 0s; /* Opera */
+	-ms-transition: width 0s; /* IE9 (maybe) */
+	z-index:-1;
+}
+
+.movie:hover {
+	width:140px;
+	height:200px;
+	margin-top:-10px;
+	margin-bottom:-10px;
+	margin-left:-10px;
+	margin-right:-10px;
+    z-index:2;
+}
+
+.action {
+	background-color: black;
+}
+
+.drama {
+	background-color: red;
 }
 
 body {
@@ -77,6 +111,7 @@ footer {
 	width: 100%;
 	height: 50px;
 	background-color:black;
+	color: white;
 }
 
 #shadow {
