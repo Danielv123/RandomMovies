@@ -121,6 +121,12 @@ h1 {
 	background-color: red;
 }
 
+.wideee {
+	width: 800px;
+	display: block;
+	clear: both;
+}
+
 body {
 	margin: 0px;
     -webkit-animation: bodyFade 5s; /* Chrome, Safari, Opera */
