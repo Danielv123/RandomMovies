@@ -2,6 +2,10 @@ window.onload = function() {
 document.getElementById("footerText").innerHTML =("<p>      &copy;  2014-" + new Date().getFullYear() + " Daniel Vestol. All rights reserved.</p>");
 };
 
+function kinocity() {
+	window.location.href = "http://www.kinocity.no"
+}
+
 function poster1() {
 	window.location.href = "poster1.html";
 }
