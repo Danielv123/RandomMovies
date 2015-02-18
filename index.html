@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script id="javascript" src="jquery.js"></script><!-- Thats mah jquery!-->
 	<script id="javascript" src="javascript.js"></script><!-- Pretty much all of my JS -->
+	<title>MovieList</title>
 </head>
 
 <body>
 	<div id="page">
 	<div id="header"><!--Header element with floated divs and buttons -->
-	<div class="smallBox"><a href="#drama"><h1>rand</h1></a></div>
-	<div class="smallBox"><a href="#drama"><h1>rand</h1></a></div>
+	<div class="smallBox"><a href="#drama"><h1>Stuffs</h1></a></div>
+	<div class="smallBox"><a href="#drama"><h1>Random</h1></a></div>
 	<div class="largeBox"><a href="index.html"><img src="images/MovieList.png" width="240px" height="100px"> <!-- LOGO image --></a></div>
-	<div class="smallBox"><a href="#action" onclick="removeContainer(drama)"><h1>action</h1></a></div>
-	<div class="smallBox"><a href="#drama" onclick="removeContainer(action)"><h1>drama</h1></a></div>
+	<div class="smallBox"><a href="#action"><h1>about</h1></a></div>
+	<div class="smallBox"><a href="#drama"><h1>contact</h1></a></div>
 	</div>
 	
 	<div id="previewBox">
@@ -22,38 +24,35 @@
 	</div>
 	
 	<div id="movies">
-	<div style="" class="movie action"><img src="images/Poster1.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster2.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster3.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster4.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster5.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster6.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster7.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster8.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster9.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster10.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster11.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster12.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster13.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster14.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster15.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster16.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster17.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster18.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster19.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster20.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster21.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster22.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster23.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster24.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster25.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster26.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster27.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster28.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster29.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie drama"><img src="images/Poster30.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster31.jpg" style="" class="moviePoster"></div>
-	<div style="" class="movie action"><img src="images/Poster32.jpg" style="" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster1.jpg"  onclick="poster1()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster3.jpg"  onclick="poster3()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster4.jpg"  onclick="poster4()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster5.jpg"  onclick="poster5()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster6.jpg"  onclick="poster6()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster7.jpg"  onclick="poster7()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster8.jpg"  onclick="poster8()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster9.jpg"  onclick="poster9()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster10.jpg"  onclick="poster10()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster11.jpg"  onclick="poster11()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster12.jpg"  onclick="poster12()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster13.jpg"  onclick="poster13()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster14.jpg"  onclick="poster14()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster15.jpg"  onclick="poster15()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster16.jpg"  onclick="poster16()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster17.jpg"  onclick="poster17()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster18.jpg"  onclick="poster18()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster19.jpg"  onclick="poster19()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster20.jpg"  onclick="poster20()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster21.jpg"  onclick="poster21()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster22.jpg"  onclick="poster22()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster23.jpg"  onclick="poster23()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster25.jpg"  onclick="poster25()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster26.jpg"  onclick="poster26()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster27.jpg"  onclick="poster27()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster28.jpg"  onclick="poster28()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster29.jpg"  onclick="poster29()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster30.jpg"  onclick="poster30()" class="moviePoster"></div>
+	<div  class="movie"><img src="images/Poster32.jpg"  onclick="poster32()" class="moviePoster"></div>
 	</div>
 	
 	<footer>
