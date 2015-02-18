@@ -8,6 +8,10 @@
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
 }
 
+h3 {
+	margin-left: 5px;
+}
+
 h1 {
 	margin-top: 0px;
 	font-family: calibri;
@@ -122,6 +126,7 @@ body {
     -webkit-animation: bodyFade 5s; /* Chrome, Safari, Opera */
     animation: bodyFade 5s;
 	background-color: #E6E6E6;
+	overflow-x:hidden;
 }
 
 footer {
@@ -130,6 +135,9 @@ footer {
 	height: 50px;
 	background-color:black;
 	color: white;
+	bottom:0px;
+	left: 0px;
+	position: fixed;
 }
 
 #shadow {
