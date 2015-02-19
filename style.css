@@ -8,8 +8,13 @@
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
 }
 
+p {
+	color: white;
+}
+
 h3 {
 	margin-left: 5px;
+	color: white;
 }
 
 h1 {
