@@ -8,13 +8,7 @@
 
 <body>
 	<div id="page">
-	<div id="header"><!--Header element with floated divs and buttons -->
-	<div class="smallBox"><a href="new.html"><h1>New!</h1></a></div>
-	<div class="smallBox"><a href="Top.html"><h1>Top 10</h1></a></div>
-	<div class="largeBox"><a href="index.html"><img src="images/MovieList.png" width="240px" height="100px"> <!-- LOGO image --></a></div>
-	<div class="smallBox"><a href="about.html"><h1>about</h1></a></div>
-	<div class="smallBox"><a href="contact.html"><h1>contact</h1></a></div>
-	</div>
+	<?php include('/header.html');?>
 	
 	<div id="previewBox">
 	

@@ -7,6 +7,8 @@
 </head>
 <body>
 <div id="page">
+	<?php include('/header.html');?>
+	
 	<p>Denne siden ble lagd under valgfagsuken 2015 av Daniel Vestøl. Har skal jeg presentere min 
 	arbeidsprossess igjennom en periode på 4 dager.</p>
 	
