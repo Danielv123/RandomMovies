@@ -8,9 +8,7 @@
 
 <body>
 	<div id="page">
-	
-	
-	<?php include('path_to_file/file.htm');?>
+	<?php include('/header.html');?>
 	
 	<div id="previewBox">
 	<img class="importantImage" src="images/SharknadoPoster.jpg">
