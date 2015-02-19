@@ -2,6 +2,15 @@ window.onload = function() {
 document.getElementById("footerText").innerHTML =("<p>      &copy;  2014-" + new Date().getFullYear() + " Daniel Vestol. All rights reserved.</p>");
 };
 
+//<script>
+//$(document).ready(function(e) {
+//    $('#header').load('header.html',function(){alert('loaded')});
+//});
+//</script>
+
+//JS is used for links as I find it easier to edit them this way.
+//Aaaand it gives me some JS to show on github.
+
 function projectInfo() {
 	window.location.href = "ProjectInfo.html"
 }
