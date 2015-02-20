@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery.js"></script><!-- Thats mah jquery!-->
-	<script src="javascript.js"></script><!-- Pretty much all of my JS -->
-	<title>MovieList</title>
-</head>
 
-<body>
-	<div id="page">
 	<?php include('/header.html');?>
 	
 	<div id="previewBox">
@@ -48,10 +39,4 @@
 	<div class="movie"><img src="images/Poster32.jpg" alt="coverpicture" onclick="poster32()" class="moviePoster"></div>
 	</div>
 	
-	<footer>
-	<p id="footerText" onload=footerLoad()>Activate JS please</p>
-	<a href="ProjectFiles.html"><p>ProjectInfo</p></a>
-	</footer>
-	</div>
-	<div id="shadow"></div>
-</body>
+<?php include('/footer.html');?>
