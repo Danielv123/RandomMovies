@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script id="javascript" src="jquery.js"></script><!-- Thats mah jquery!-->
-	<script id="javascript" src="javascript.js"></script><!-- Pretty much all of my JS -->
+	<script src="jquery.js"></script><!-- Thats mah jquery!-->
+	<script src="javascript.js"></script><!-- Pretty much all of my JS -->
 	<title>MovieList</title>
 </head>
 
