@@ -1,14 +1,4 @@
-﻿<DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script id="javascript" src="jquery.js"></script><!-- Thats mah jquery!-->
-	<script id="javascript" src="javascript.js"></script><!-- Pretty much all of my JS -->
-
-</head>
-<body>
-<div id="page">
-	<?php include('/header.html');?>
+﻿<?php include('/header.html');?>
 	
 	<p>Denne siden ble lagd under valgfagsuken 2015 av Daniel Vestøl. Har skal jeg presentere min 
 	arbeidsprossess igjennom en periode på 4 dager.</p>
@@ -39,12 +29,4 @@
 	<h3>Torsdag</h3>
 	<p>Gjør alt klart for 7. klasse. Lager også denne prosjektsiden da det ikke kan utsettes for alltid. 
 	Nettsiden er ganske fin, selv om den har ett par bugs rundt om kring.</p>
-	
-	
-</div>
-<footer>
-	<p id="footerText" onload=footerLoad()>Activate JS please</p>
-	<a href="ProjectFiles.html"><p>ProjectInfo</p></a>
-</footer>
-<div id="shadow"></div>
-</body>
+<?php include('/footer.html');?>

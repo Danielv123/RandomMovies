@@ -1,4 +1,4 @@
-	<?php include('/header.html');?>
+<?php include('/header.html');?>
 	
 	<div id="previewBox">
 	<img class="importantImage" src="images/SharknadoPoster.jpg" alt="SharknadoCover">
