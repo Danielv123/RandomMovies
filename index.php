@@ -1,4 +1,3 @@
-
 	<?php include('/header.html');?>
 	
 	<div id="previewBox">
