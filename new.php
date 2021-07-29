@@ -1,4 +1,4 @@
-<?php include('/header.html');?>
+<?php include('./header.html');?>
 	
 	<div id="previewBox">
 	
@@ -54,4 +54,4 @@
 	</h3>
 	
 	<p onclick="kinocity()">Find a cinema near you</p>
-<?php include('/footer.html');?>
+<?php include('./footer.html');?>

@@ -1,4 +1,4 @@
-﻿<?php include('/header.html');?>
+﻿<?php include('./header.html');?>
 	
 	<p>Denne siden ble lagd under valgfagsuken 2015 av Daniel Vestøl. Har skal jeg presentere min 
 	arbeidsprossess igjennom en periode på 4 dager.</p>
@@ -29,4 +29,4 @@
 	<h3>Torsdag</h3>
 	<p>Gjør alt klart for 7. klasse. Lager også denne prosjektsiden da det ikke kan utsettes for alltid. 
 	Nettsiden er ganske fin, selv om den har ett par bugs rundt om kring.</p>
-<?php include('/footer.html');?>
+<?php include('./footer.html');?>

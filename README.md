@@ -4,3 +4,17 @@ This is a school project. But there is more. It is a demonstration of everything
 
 <h1>Usage:</h1>
 You have to set up a website with PHP. Its as simple as that. You simply cannot run any version after 1.1 locally by clicking on the file as my new headerformat uses PHP code wich is serverside. Mongoose is a great and simple webserver for this purpose. It is also great for running locally.
+
+### Setup:
+
+1. Download PHP from php.net, for example https://windows.php.net/downloads/releases/php-8.0.9-Win32-vs16-x64.zip
+
+2. Create a new folder in the RandomMovies folder called `php`
+
+3. Drag all the files from the zip into `RandomMovies/php`
+
+4. Deselect all files and shift + right click outside of the files in the folder. Select "Open PowerShell window here"
+
+5. In powershell, type `.\php\php -S localhost:888`
+
+6. Navigate to http://localhost:888

@@ -1,4 +1,4 @@
-<?php include('/header.html');?>
+<?php include('./header.html');?>
 	
 	<div id="previewBox">
 	<img class="importantImage" src="images/SharknadoPoster.jpg" alt="SharknadoCover">
@@ -38,4 +38,4 @@
 	<div class="movie"><img src="images/Poster32.jpg" alt="coverpicture" onclick="poster32()" class="moviePoster"></div>
 	</div>
 	
-<?php include('/footer.html');?>
+<?php include('./footer.html');?>

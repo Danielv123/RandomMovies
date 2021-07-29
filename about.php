@@ -1,4 +1,4 @@
-<?php include('/header.html');?>
+<?php include('./header.html');?>
 	
 	<div id="previewBox">
 	<img class="importantImage" src="images/Poster10.jpg">
@@ -8,5 +8,5 @@
 	
 	
 	</h3>
-	<p onclick="projectInfo()">ProjectInfo</p>
-<?php include('/footer.html');?>
+	<p onclick="projectInfo()">Link til prosjektlogg</p>
+<?php include('./footer.html');?>
